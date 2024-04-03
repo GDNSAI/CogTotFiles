@@ -1,0 +1,23 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import pageObject.Afterlogin;
+import pageObject.HomePage;
+import testBase.BaseClass;
+
+public class TC_002_LoginTest extends BaseClass{
+	@Test
+	public void Ver_login()
+	{
+		logger.info("******Start of the Login Test******");
+		logger.debug("Capture the debug logs");
+		HomePage hp=new HomePage(driver);
+		hp.createAccount();
+		logger.info("Loging in to the user account");
+		hp.clicLog();
+		
+		Login l=new Login(driver);
+	}
+
+}

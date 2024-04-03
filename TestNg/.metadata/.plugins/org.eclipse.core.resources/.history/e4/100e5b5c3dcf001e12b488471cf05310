@@ -1,0 +1,15 @@
+package HackerRank;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
+
+public class LogHac {
+	WebDriver driver;Hack h;
+	@BeforeClass
+	void setup()
+	{
+		
+	}
+	
+
+}

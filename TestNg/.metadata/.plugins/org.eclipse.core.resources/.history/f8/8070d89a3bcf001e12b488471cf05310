@@ -1,0 +1,12 @@
+package HackerRank;
+
+import org.openqa.selenium.WebDriver;
+
+public class Hack {
+	
+	public WebDriver driver;
+	Hack(WebDriver driver){
+		this.driver=driver;
+	}
+
+}

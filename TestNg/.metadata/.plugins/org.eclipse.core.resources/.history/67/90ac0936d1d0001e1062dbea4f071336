@@ -1,0 +1,40 @@
+14:21:46.336 [main] DEBUG testCases.TC_002_LoginTest - Capture the debug logs
+14:22:25.772 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs........
+14:22:25.786 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Starting TC_001_AccountRegistrationTest********
+14:22:25.843 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Clicked on Account ********
+14:24:29.428 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs........
+14:24:29.440 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Starting TC_001_AccountRegistrationTest********
+14:24:29.498 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Clicked on Account ********
+14:25:15.557 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs........
+14:25:15.567 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Starting TC_001_AccountRegistrationTest********
+14:25:15.616 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Clicked on Account ********
+14:25:15.772 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Clicked on Registration page********
+14:25:17.625 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Entering customer details********
+14:25:17.684 [main] INFO  testCases.TC_001_AccountRegistrationTest - test Fail
+14:25:17.684 [main] DEBUG testCases.TC_001_AccountRegistrationTest - degug the issue.......
+15:54:42.921 [main] INFO  testCases.TC_001_AccountRegistrat1 - ****Start of Account Registration***
+15:54:42.938 [main] DEBUG testCases.TC_001_AccountRegistrat1 - Debugging the processes
+15:54:43.008 [main] INFO  testCases.TC_001_AccountRegistrat1 - Click on Registration Page
+15:54:43.964 [main] INFO  testCases.TC_001_AccountRegistrat1 - Account registration Processes
+15:55:40.108 [main] INFO  testCases.TC_001_AccountRegistrat1 - ****Start of Account Registration***
+15:55:40.123 [main] DEBUG testCases.TC_001_AccountRegistrat1 - Debugging the processes
+15:55:40.181 [main] INFO  testCases.TC_001_AccountRegistrat1 - Click on Registration Page
+15:55:41.158 [main] INFO  testCases.TC_001_AccountRegistrat1 - Account registration Processes
+15:55:59.169 [main] INFO  testCases.Tc_002_LoginTest1 - ******Start of the Login Test******
+15:55:59.169 [main] DEBUG testCases.Tc_002_LoginTest1 - Capture the debug logs
+15:55:59.169 [main] INFO  testCases.Tc_002_LoginTest1 - Click in login
+15:56:00.984 [main] INFO  testCases.Tc_002_LoginTest1 - Login process....
+20:49:36.168 [main] INFO  testCases.TC_001_AccountRegistrat1 - ****Start of Account Registration***
+20:49:36.183 [main] DEBUG testCases.TC_001_AccountRegistrat1 - Debugging the processes
+20:49:36.277 [main] INFO  testCases.TC_001_AccountRegistrat1 - Click on Registration Page
+20:49:38.057 [main] INFO  testCases.TC_001_AccountRegistrat1 - Account registration Processes
+20:49:55.075 [main] INFO  testCases.Tc_002_LoginTest1 - ******Start of the Login Test******
+20:49:55.076 [main] DEBUG testCases.Tc_002_LoginTest1 - Capture the debug logs
+20:49:55.077 [main] INFO  testCases.Tc_002_LoginTest1 - Click in login
+20:49:57.015 [main] INFO  testCases.Tc_002_LoginTest1 - Login process....
+20:54:56.988 [main] INFO  testCases.TC_001_AccountRegistrat1 - ****Start of Account Registration***
+20:54:57.104 [main] INFO  testCases.TC_001_AccountRegistrat1 - Click on Registration Page
+20:55:00.595 [main] INFO  testCases.TC_001_AccountRegistrat1 - Account registration Processes
+20:55:17.187 [main] INFO  testCases.Tc_002_LoginTest1 - ******Start of the Login Test******
+20:55:17.188 [main] INFO  testCases.Tc_002_LoginTest1 - Click in login
+20:55:19.134 [main] INFO  testCases.Tc_002_LoginTest1 - Login process....

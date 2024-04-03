@@ -1,0 +1,45 @@
+package testCases;
+
+import java.util.Properties;
+
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import pageObjects.BeCogniPage;
+import stepDefinitions.BaseTest;
+
+public class BeCognizant extends BaseTest {
+	public WebDriver driver;
+	public Logger logger;
+	@Test
+	void Emp_Verific() throws InterruptedException {
+		BeCogniPage bc = new BeCogniPage(driver);
+		
+		bc.clickAccDetails();
+		String EmpName = bc.getAccManagerName();
+		if (EmpName.equals("Devanagasai, Geepalem (Contractor)")) {
+			logger.info("Employee Name is Valid");
+			Assert.assertTrue(true);
+		} else {
+			logger.info("Employee Name is Invalid");
+			Assert.fail();
+		}
+
+		String EmpEmail = bc.getAccManagerEmail();
+		if(EmpEmail.equals("2308397@cognizant.com"))
+		{
+			logger.info("Employee Email is Valid");
+			Assert.assertTrue(true);
+		} else {
+			logger.info("Employee Email is Invalid");
+			Assert.fail();
+		}
+		
+		Assert.assertEquals(bc.verifyOneCogni(), "OneCognizant", "One Cognizant NOT found");
+		
+		bc.clickOnOneCogni();
+
+	}
+	
+}

@@ -1,0 +1,29 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import pageObject.AccountReg1;
+import pageObject.HomePage1;
+import testBase.BaseClass1;
+
+public class TC_001_AccountRegistrat1 extends BaseClass1{
+	
+	WebDriver driver;
+	@Test
+	public void reg()
+	{
+		HomePage1 hp=new HomePage1(driver);
+		hp.ClickAcct();
+		hp.ClickRegis();
+		AccountReg1 ar=new AccountReg1(driver);
+		
+		ar.setFirstName(isAlpha().toUpperCase());
+		ar.setLastName(isAlpha().toUpperCase());
+		String email=setEmail(isAlphaNumeric()+"@gmail.com");
+		ar.setConfirmEmail(isAlpha());
+		
+		
+	}
+
+}

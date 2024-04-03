@@ -1,0 +1,20 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class AccountReg1 extends BasePage1{
+
+	AccountReg1(WebDriver driver) {
+		super(driver);
+	}
+	
+
+@FindBy(xpath="//input[@id='LastName']") private WebElement lastName:;
+@FindBy(xpath="//input[@id='FirstName']") private WebElement firstName:;
+@FindBy(xpath="//input[@id='Email']") private WebElement email:;
+@FindBy(xpath="//input[@id='ConfirmEmail']") private WebElement confirmEmail:;
+@FindBy(xpath="//input[@id='Username']") private WebElement username:;
+@FindBy(xpath="//input[@id='Password']") private WebElement password:;
+@FindBy(xpath="//input[@id='ConfirmPassword']") private WebElement confirmPassword:;
+
+}

@@ -1,0 +1,14 @@
+package HackerRank;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class Hack {
+	
+	public WebDriver driver;
+	Hack(WebDriver driver){
+		this.driver=driver;
+		PageFactory.initElements(driver,this);
+	}
+
+}

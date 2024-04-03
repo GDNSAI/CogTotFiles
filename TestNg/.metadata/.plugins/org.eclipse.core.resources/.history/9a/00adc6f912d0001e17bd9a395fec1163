@@ -1,0 +1,63 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
+
+public class AccountReg1 extends BasePage1{
+
+	AccountReg1(WebDriver driver) {
+		super(driver);
+	}
+	
+
+@FindBy(xpath="//input[@id='LastName']") private WebElement lastName;
+public void setLastName(String lname) {
+	lastName.sendKeys(lname);
+}
+@FindBy(xpath="//input[@id='FirstName']") private WebElement firstName;
+public void setFirstName(String fname) {
+	firstName.sendKeys(fname);;
+}
+
+@FindBy(xpath="//input[@id='Email']") private WebElement email;
+public void setEmail(String emai) {
+	email.sendKeys(emai);
+}
+
+@FindBy(xpath="//input[@id='ConfirmEmail']") private WebElement confirmEmail;
+public void setConfirmEmail(String cnfemail) {
+	confirmEmail.sendKeys(cnfemail);;
+}
+
+@FindBy(xpath="//input[@id='Username']") private WebElement username;
+public void setUsername(String usname) {
+	username.sendKeys(usname);;
+}
+@FindBy(xpath="//input[@id='Password']") private WebElement password;
+public void setPassword(String pass) {
+	password.sendKeys(pass);;
+}
+@FindBy(xpath="//input[@id='ConfirmPassword']") private WebElement confirmPassword;
+public void setConfirmPassword(String cnfpass) {
+	confirmPassword.sendKeys(cnfpass);;
+}
+
+@FindBy(xpath="//select[@id='Details_CompanyIndustryId']") private WebElement myCompanyPrimarily;
+public void setMyCompanyPrimarily(WebElement myCompanyPrimarily) {
+	select se=new Select(myCompanyPrimarily);
+}
+public void setMyMainActivityInTheCompan(WebElement myMainActivityInTheCompan) {
+	this.myMainActivityInTheCompan = myMainActivityInTheCompan;
+}
+public void setHowManyPeopleWorkForYour(WebElement howManyPeopleWorkForYour) {
+	this.howManyPeopleWorkForYour = howManyPeopleWorkForYour;
+}
+
+
+@FindBy(xpath="//select[@id='Details_CompanyRoleId']") private WebElement myMainActivityInTheCompan;
+@FindBy(xpath="//select[@id='Details_CompanySizeId']") private WebElement howManyPeopleWorkForYour;
+
+
+}

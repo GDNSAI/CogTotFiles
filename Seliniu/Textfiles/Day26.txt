@@ -1,0 +1,48 @@
+Day-26
+-------
+frames/iframe
+
+driver.switchTo().frame(name/id)
+driver.switchTo().frame(WebElement)
+driver.switchTo().frame(index)
+
+driver.switchTo().defaultContent();
+
+
+packageListFrame
+packageFrame
+classFrame
+
+handle browser windows
+-----
+
+getWindowHandle() - return id of single window( in which driver focused)
+getWindowHandles()- returns id's of multiple windows
+
+driver.switchTo().window(window id)
+
+driver.switchTo().window(window id).getTitle()
+
+many browser windows opened
+
+close() - close single browser window which is focud by driver.
+quit() - close all the browser windows which are currently opened
+
+3 types of switching commands
+---
+1) driver.switchTo().alert()
+2)  driver.switchTo().frame()
+3) driver.switcho().window()
+
+Assignments
+------------
+Search, Opening links, switch to browser windows, capture titles, close all browser windows
+	https://testautomationpractice.blogspot.com/
+
+iframe:
+	http://the-internet.herokuapp.com/iframe
+
+
+
+
+

@@ -1,0 +1,14 @@
+package com.TestNG.POM;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
+
+public class LoginMeth {
+	WebDriver driver;
+	@BeforeClass
+	void setup()
+	{
+		
+	}
+
+}

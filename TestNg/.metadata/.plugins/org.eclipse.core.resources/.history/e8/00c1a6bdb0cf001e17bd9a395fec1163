@@ -1,0 +1,36 @@
+package testCases;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import pageObject.*;
+
+public class TC001_LoginValid {
+	
+	WebDriver driver;
+	Basepage b;
+	HomePage hp;
+	@BeforeClass
+	void setup() throws InterruptedException
+	{
+		driver=new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.opencart.com/index.php?route=cms/demo");
+		Thread.sleep(5000);
+		
+	}
+	
+	@AfterClass
+	void close()
+	{
+		driver.close();
+	}
+	
+	
+
+}

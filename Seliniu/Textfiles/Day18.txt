@@ -1,0 +1,41 @@
+Day-18
+------------
+
+1) Identifying elements - Locators
+2) Perform actions - Methods
+
+Locator - Locate the web elements
+
+findElement()
+findElements()
+
+length - arrays   a.length
+lenght() - string   s.lenght()
+size()- List, Set, HashMap 
+
+findElement(loc) ----> WebElement 
+findElements(loc) ----> List<WebElement>
+
+Scenario1:  locator is matching with single web element.
+-------
+findElement(loc) ---->single webelement   WebElement
+findElements(loc)--->single webelement		List<WebElement>
+
+Scenario2: locator is matching with multiple web elements
+------------------
+findElement(loc)---->single webelement(first)    WebElement
+findElements(loc) ---> multiple web elements      List<WebElement>
+
+Scenario3: locator is incorect ( No elements are not matching with locator)
+------
+findElement(loc)----> NoSuchElementException
+findElements(loc)--->returns zero
+
+
+
+
+
+
+
+
+

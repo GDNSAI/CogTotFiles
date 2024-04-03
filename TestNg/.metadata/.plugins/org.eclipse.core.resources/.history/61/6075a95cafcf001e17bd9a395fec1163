@@ -1,0 +1,44 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AccountRegsetup extends Basepage {
+	WebDriver driver;
+	AccountRegsetup(WebDriver driver){
+		super(driver);
+	}
+
+	@FindBy(xpath="//input[@id='input-username']") WebElement us;
+	@FindBy(xpath="//input[@id='input-firstname']") WebElement fn;
+	@FindBy(xpath="//input[@id='input-lastname']") WebElement lan;
+	@FindBy(xpath="//input[@id='input-email']") WebElement email;
+	@FindBy(xpath="//select[@id='input-country']") WebElement co;
+	@FindBy(xpath="//input[@id='input-password']") WebElement pass;
+	
+	public void setus(String usna)
+	{
+		us.sendKeys(usna);
+	}
+	public void setfn(String  fna)
+	{
+		fn.sendKeys(fna);
+	}
+	public void setln(String  lna)
+	{
+		lan.sendKeys(lna);
+	}
+	public void setem(String  ema)
+	{
+		email.sendKeys(ema);
+	}
+	public void setcon(String  cont)
+	{
+		co.sendKeys(cont);
+	}
+	public void setpass(String  pas)
+	{
+		pass.sendKeys(pas);
+	}
+}

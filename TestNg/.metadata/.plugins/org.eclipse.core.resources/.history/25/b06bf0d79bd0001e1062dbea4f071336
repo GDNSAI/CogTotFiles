@@ -1,0 +1,31 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Login1 extends BasePage {
+
+	public Login1(WebDriver driver) {
+		super(driver);
+	}
+	
+
+@FindBy(xpath="//input[@id='Email']") private WebElement email;
+@FindBy(xpath="//input[@id='Password']") private WebElement password;
+@FindBy(xpath="//button[normalize-space()='Log in']") private WebElement logIn;
+
+public void setEmail(String emai)
+{
+	email.sendKeys(emai);
+}
+public void setPass(String pass)
+{
+	email.sendKeys(pass);
+}
+public void clickLogin()
+{
+	logIn.click();;
+}
+
+}

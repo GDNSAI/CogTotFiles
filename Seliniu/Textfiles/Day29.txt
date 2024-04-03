@@ -1,0 +1,43 @@
+Day-29
+----------
+Mouse actions
+----------
+
+Mouse hover  -	 moveToElement(Element)
+Right click      -  contextClick(Element)
+Double click  - doubleClick(Element)
+Drag and drop - dragAndDrop()
+slider --- dragAndDropBy(Element, x,y);
+
+
+Actions - class provided by selenium webdriver.
+
+build() - create an action
+perform() - can complete the action
+
+
+<input  id='abc' > testing</input>      testing - inner text
+findElement(Loc).getText()  ----- testing
+findElement(Loc).getAttribute('value')   - return nothing
+
+<input id='abc' value='testing' />       no innertext
+findElement(Loc).getText()   - return nothing
+findElement(Loc).getAttribute('value') --- testing
+
+
+getText() --- returns inner text of the element
+
+getAttribute("value") --- testing
+getAttribute("id") ------ abc
+
+build().perform()
+perfom()
+
+
+Assignment
+-----
+
+Drag and drop
+http://demo.guru99.com/test/drag_drop.html
+
+

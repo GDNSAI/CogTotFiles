@@ -1,0 +1,19 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import testBase.BaseClass;
+
+public class Tc_002_LoginTest1 extends BaseClass{
+	
+	@Test
+	void Logi()
+	{
+		logger.info("******Start of the Login Test******");
+		logger.debug("Capture the debug logs");
+		Homepage1 hp=new Homepage1(driver);
+		
+		
+	}
+
+}

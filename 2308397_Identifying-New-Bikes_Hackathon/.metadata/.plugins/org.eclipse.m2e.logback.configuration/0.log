@@ -1,0 +1,134 @@
+2024-03-02 12:24:12,447 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-02 12:24:46,727 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Hackathon:Hackathon:0.0.1-SNAPSHOT @ C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\pom.xml.
+2024-03-02 12:24:49,840 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/main/java
+2024-03-02 12:24:49,844 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/test/java
+2024-03-02 12:24:49,846 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hackathon/src/test/resources
+2024-03-02 12:24:55,977 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 13 sec
+2024-03-02 12:24:58,030 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:24:58,035 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:24:58,046 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:24:58,066 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:25:07,497 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:25:07,500 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:25:07,513 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:25:07,523 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:27:43,349 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:27:43,352 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:27:43,358 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:27:43,367 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:28:14,625 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:14,627 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:28:14,633 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:14,640 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:28:39,176 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:39,179 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:28:39,186 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:39,193 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:28:46,651 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:46,654 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\Downloads\2309118_Hackathon-Project\Hackathon\src\main\resources
+2024-03-02 12:28:46,661 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:28:46,671 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:30:28,821 [Worker-24: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Hackathon:Hackathon:0.0.1-SNAPSHOT @ C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\pom.xml.
+2024-03-02 12:30:30,586 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/main/java
+2024-03-02 12:30:30,588 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/test/java
+2024-03-02 12:30:30,590 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hackathon/src/test/resources
+2024-03-02 12:30:33,484 [Worker-24: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2024-03-02 12:30:34,415 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:30:34,419 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:30:34,427 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:30:34,432 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:31:15,024 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:31:15,028 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:31:15,035 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:31:15,043 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:31:47,346 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:31:47,350 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:31:47,356 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:31:47,364 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:32:07,094 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:07,097 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:32:07,103 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:07,109 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:32:34,753 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:34,756 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:32:34,762 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:34,768 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:32:53,263 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:53,267 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:32:53,275 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:32:53,282 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:36:09,302 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Hackathon:Hackathon:0.0.1-SNAPSHOT @ C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\pom.xml.
+2024-03-02 12:36:12,243 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:36:12,246 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:36:12,254 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:36:12,259 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:36:14,823 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:36:14,826 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:36:14,831 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:36:14,838 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:44:41,898 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:41,902 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:44:41,907 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:41,912 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:44:49,512 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:49,514 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:44:49,520 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:49,527 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:44:53,111 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:53,114 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:44:53,120 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:44:53,125 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:46:03,509 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:46:03,511 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:46:03,515 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:46:03,518 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:47:15,536 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:47:15,539 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:47:15,544 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:47:15,550 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:48:30,750 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-02 12:48:31,713 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Hackathon:Hackathon:0.0.1-SNAPSHOT @ C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\pom.xml.
+2024-03-02 12:48:34,250 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/main/java
+2024-03-02 12:48:34,252 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hackathon/src/test/java
+2024-03-02 12:48:34,253 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hackathon/src/test/resources
+2024-03-02 12:48:35,385 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2024-03-02 12:48:35,858 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:48:35,862 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:48:35,868 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:48:35,871 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:50:27,673 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:27,675 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:50:27,680 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:27,752 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:50:45,199 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:45,201 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:50:45,206 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:45,211 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:50:57,084 [Worker-27: Launching Hackathon_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:57,086 [Worker-27: Launching Hackathon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:50:57,091 [Worker-27: Launching Hackathon_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:50:57,097 [Worker-27: Launching Hackathon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:51:38,092 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:51:38,094 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:51:38,103 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:51:38,107 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:51:57,287 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:51:57,290 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:51:57,297 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:51:57,302 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:52:16,635 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:52:16,637 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:52:16,642 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:52:16,645 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:55:37,172 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:55:37,175 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:55:37,182 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:55:37,185 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-02 12:56:00,151 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:56:00,154 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:56:00,160 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:56:00,165 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-03-02 12:56:31,029 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:56:31,030 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2308397\eclipse-workspace\2308397_Identifying-New-Bikes_Hackathon\Hackathon\src\main\resources
+2024-03-02 12:56:31,036 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-02 12:56:31,041 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources

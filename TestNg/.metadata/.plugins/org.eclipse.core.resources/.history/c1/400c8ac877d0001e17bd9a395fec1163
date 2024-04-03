@@ -1,0 +1,15 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import testBase.BaseClass;
+
+public class TC_002_LoginTest extends BaseClass{
+	@Test
+	public void Ver_login()
+	{
+		logger.info("******Start of the Login Test******");
+		
+	}
+
+}

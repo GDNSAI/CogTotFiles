@@ -1,0 +1,13 @@
+package testBase;
+
+import org.testng.annotations.*;
+
+public class BasePage {
+	
+	@BeforeClass
+	void setup()
+	{
+		
+	}
+
+}

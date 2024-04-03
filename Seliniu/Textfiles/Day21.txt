@@ -1,0 +1,47 @@
+Day-21
+-------
+
+
+Multiple attribute in xpath
+--------
+//input[@name='username'][@placeholder='Username']
+
+//input[@name='username' and @placeholder='Username']
+//input[@name='xyz' or @placeholder='Username']
+
+
+multiple attributes in xpath
+last()
+text()
+starts-with()
+contains()
+and
+or
+----------------------------------------
+
+//form[id='frmLogin]/descendant::input
+
+
+
+
+//form[@id=‘txtUsername’]/descendant:: input[1]
+
+XPath Axes
+---------------
+https://www.youtube.com/playlist?list=PLUDwpEzHYYLut2OnS4GlY7fiSAabRmsz3
+
+1) what is dot here  
+
+//a[contains(.,'test labs')];    // what is . here ???                                                            
+
+
+
+
+
+
+
+
+
+
+
+

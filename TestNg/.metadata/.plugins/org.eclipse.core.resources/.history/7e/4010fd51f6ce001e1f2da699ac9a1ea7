@@ -1,0 +1,16 @@
+package com.TestNG.POM;
+
+import org.openqa.selenium.WebDriver;
+
+public class Login {
+	public WebDriver driver;
+	
+	Login(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements()	
+	}
+	
+	
+
+}

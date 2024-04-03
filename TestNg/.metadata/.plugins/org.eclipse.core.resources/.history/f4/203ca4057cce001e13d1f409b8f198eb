@@ -1,0 +1,13 @@
+package com.TestNG.Listners;
+
+import org.testng.annotations.Test;
+
+public class Listne {
+	
+	@Test(priority=1)
+	void test1()
+	{
+		
+	}
+
+}

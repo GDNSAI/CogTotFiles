@@ -1,0 +1,12 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class HomePage1 {
+	WebDriver driver;
+	HomePage1(WebDriver driver)
+	{
+		super(driver);
+	}
+
+}

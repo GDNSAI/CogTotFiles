@@ -1,0 +1,11 @@
+package com.TestNG.Listners;
+
+public class Listne {
+	
+	@Test
+	void test1()
+	{
+		
+	}
+
+}

@@ -1,0 +1,113 @@
+package pageObject;
+
+ 
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.support.FindBy;
+ 
+public class HomePage extends BasePage {
+ 
+	public HomePage(WebDriver driver) {
+
+		super(driver);
+
+	}
+ 
+	@FindBy(xpath = "//span[normalize-space()='My Account']")
+
+	WebElement lnkmyAccount;
+ 
+	@FindBy(xpath = "//a[normalize-space()='Register']")
+
+	WebElement lnkregister;
+ 
+	public void createAccount() {
+
+		lnkmyAccount.click();
+ 
+	}
+ 
+	public void clickRegister() {
+
+		lnkregister.click();
+
+	}
+ 
+}
+
+[12:22 PM] R, Sriram (Cognizant)
+package testBase;
+ 
+import java.time.Duration;
+ 
+import org.apache.commons.lang3.RandomStringUtils;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.edge.EdgeDriver;
+
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+ 
+public class BaseClass {
+ 
+	public WebDriver driver;
+ 
+	@BeforeClass
+
+	public void setup() throws InterruptedException {
+
+		driver = new ChromeDriver();
+
+		driver.manage().deleteAllCookies();
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+		driver.get("https://demo.opencart.com/index.php?route=account/login&language=en-gb");
+
+		driver.manage().window().maximize();
+
+		Thread.sleep(2000);
+ 
+	}
+ 
+	@AfterClass
+
+	public void tearDown() {
+
+		driver.quit();
+
+	}
+ 
+	public String randomString() {
+
+		String generatedString = RandomStringUtils.randomAlphabetic(5);
+
+		return generatedString;
+
+	}
+ 
+	public String randomNumber() {
+
+		String generatedString = RandomStringUtils.randomNumeric(10);
+
+		return generatedString;
+
+	}
+ 
+	public String randomAphaNumeric() {
+
+		String str = RandomStringUtils.randomAlphabetic(3);
+
+		String num = RandomStringUtils.randomNumeric(3);
+
+		return (str + "@" + num);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.TestNG.Listners;
+
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class Listnerson implements ITestListener{
+	
+	public void onTestStart(ITestResult result) {
+		System.out.println("On test start.....");
+	}
+
+}

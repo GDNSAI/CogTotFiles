@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T14:52:09 IST" name="Suite" finished-at="2024-02-28T14:55:33 IST" duration-ms="204010">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T14:52:09 IST" name="Test1" finished-at="2024-02-28T14:53:43 IST" duration-ms="93450">
+      <class name="testCases.BeCognizant">
+        <test-method signature="getInfo()[pri:1, instance:testCases.BeCognizant@609cd4d8]" started-at="2024-02-28T14:52:20 IST" name="getInfo" finished-at="2024-02-28T14:52:53 IST" duration-ms="33134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method signature="verifyOneCogni()[pri:2, instance:testCases.BeCognizant@609cd4d8]" started-at="2024-02-28T14:52:54 IST" name="verifyOneCogni" finished-at="2024-02-28T14:53:04 IST" depends-on-methods="testCases.BeCognizant.getInfo" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneCogni -->
+      </class> <!-- testCases.BeCognizant -->
+      <class name="testCases.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.BaseTest@41a2befb]" started-at="2024-02-28T14:52:10 IST" name="setup" finished-at="2024-02-28T14:52:20 IST" duration-ms="10258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BaseTest@41a2befb]" started-at="2024-02-28T14:53:41 IST" name="tearDown" finished-at="2024-02-28T14:53:43 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.BaseTest -->
+      <class name="testCases.TruTime">
+        <test-method signature="validateCurrentMonthAndYear()[pri:1, instance:testCases.TruTime@13b6aecc]" started-at="2024-02-28T14:53:39 IST" name="validateCurrentMonthAndYear" finished-at="2024-02-28T14:53:39 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentMonthAndYear -->
+        <test-method signature="validateBackDatedTopUp()[pri:2, instance:testCases.TruTime@13b6aecc]" started-at="2024-02-28T14:53:40 IST" name="validateBackDatedTopUp" finished-at="2024-02-28T14:53:40 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBackDatedTopUp -->
+        <test-method signature="printLegends()[pri:3, instance:testCases.TruTime@13b6aecc]" started-at="2024-02-28T14:53:40 IST" name="printLegends" finished-at="2024-02-28T14:53:41 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLegends -->
+        <test-method signature="validateCurrentHighlightedDate()[pri:4, instance:testCases.TruTime@13b6aecc]" started-at="2024-02-28T14:53:41 IST" name="validateCurrentHighlightedDate" finished-at="2024-02-28T14:53:41 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentHighlightedDate -->
+        <test-method signature="validateTruTimeDates()[pri:5, instance:testCases.TruTime@13b6aecc]" started-at="2024-02-28T14:53:41 IST" name="validateTruTimeDates" finished-at="2024-02-28T14:53:41 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTruTimeDates -->
+      </class> <!-- testCases.TruTime -->
+      <class name="testCases.OneCognizant">
+        <test-method signature="searchTruTime(java.lang.String)[pri:1, instance:testCases.OneCognizant@17f7cd29]" started-at="2024-02-28T14:53:05 IST" name="searchTruTime" finished-at="2024-02-28T14:53:24 IST" duration-ms="19705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTruTime -->
+        <test-method signature="validateTruTimePage()[pri:2, instance:testCases.OneCognizant@17f7cd29]" started-at="2024-02-28T14:53:25 IST" name="validateTruTimePage" finished-at="2024-02-28T14:53:39 IST" depends-on-methods="testCases.OneCognizant.searchTruTime" duration-ms="14527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTruTimePage -->
+      </class> <!-- testCases.OneCognizant -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-02-28T14:53:45 IST" name="Test2" finished-at="2024-02-28T14:55:33 IST" duration-ms="108117">
+      <class name="testCases.BeCognizant">
+        <test-method signature="getInfo()[pri:1, instance:testCases.BeCognizant@a1cdc6d]" started-at="2024-02-28T14:53:59 IST" name="getInfo" finished-at="2024-02-28T14:54:37 IST" duration-ms="37743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method signature="verifyOneCogni()[pri:2, instance:testCases.BeCognizant@a1cdc6d]" started-at="2024-02-28T14:54:37 IST" name="verifyOneCogni" finished-at="2024-02-28T14:54:48 IST" depends-on-methods="testCases.BeCognizant.getInfo" duration-ms="10461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneCogni -->
+      </class> <!-- testCases.BeCognizant -->
+      <class name="testCases.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.BaseTest@623a8092]" started-at="2024-02-28T14:53:45 IST" name="setup" finished-at="2024-02-28T14:53:59 IST" duration-ms="13786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BaseTest@623a8092]" started-at="2024-02-28T14:55:32 IST" name="tearDown" finished-at="2024-02-28T14:55:33 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.BaseTest -->
+      <class name="testCases.TruTime">
+        <test-method signature="validateCurrentMonthAndYear()[pri:1, instance:testCases.TruTime@3098cf3b]" started-at="2024-02-28T14:55:30 IST" name="validateCurrentMonthAndYear" finished-at="2024-02-28T14:55:30 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentMonthAndYear -->
+        <test-method signature="validateBackDatedTopUp()[pri:2, instance:testCases.TruTime@3098cf3b]" started-at="2024-02-28T14:55:30 IST" name="validateBackDatedTopUp" finished-at="2024-02-28T14:55:30 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBackDatedTopUp -->
+        <test-method signature="printLegends()[pri:3, instance:testCases.TruTime@3098cf3b]" started-at="2024-02-28T14:55:30 IST" name="printLegends" finished-at="2024-02-28T14:55:31 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLegends -->
+        <test-method signature="validateCurrentHighlightedDate()[pri:4, instance:testCases.TruTime@3098cf3b]" started-at="2024-02-28T14:55:31 IST" name="validateCurrentHighlightedDate" finished-at="2024-02-28T14:55:31 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrentHighlightedDate -->
+        <test-method signature="validateTruTimeDates()[pri:5, instance:testCases.TruTime@3098cf3b]" started-at="2024-02-28T14:55:31 IST" name="validateTruTimeDates" finished-at="2024-02-28T14:55:32 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTruTimeDates -->
+      </class> <!-- testCases.TruTime -->
+      <class name="testCases.OneCognizant">
+        <test-method signature="searchTruTime(java.lang.String)[pri:1, instance:testCases.OneCognizant@175b9425]" started-at="2024-02-28T14:54:48 IST" name="searchTruTime" finished-at="2024-02-28T14:55:19 IST" duration-ms="30602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTruTime -->
+        <test-method signature="validateTruTimePage()[pri:2, instance:testCases.OneCognizant@175b9425]" started-at="2024-02-28T14:55:19 IST" name="validateTruTimePage" finished-at="2024-02-28T14:55:29 IST" depends-on-methods="testCases.OneCognizant.searchTruTime" duration-ms="10167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTruTimePage -->
+      </class> <!-- testCases.OneCognizant -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

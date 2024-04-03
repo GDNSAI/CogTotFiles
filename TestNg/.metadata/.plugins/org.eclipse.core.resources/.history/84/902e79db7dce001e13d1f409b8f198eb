@@ -1,0 +1,25 @@
+package com.TestNG.Listners;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class Listnerson implements ITestListener{
+	
+	public void onTestSucess(ITestResult result) {
+		System.out.println("On test success.....");
+	}
+	public void onTestStart(ITestResult result) {
+		System.out.println("On test start.....");
+	}
+	public void onTestSkipped(ITestResult result) {
+		System.out.println("On test skipped.....");
+	}
+	public void onTestFailure(ITestResult result) {
+		System.out.println("On test Failure.....");
+	}
+	public void onFinish(ITestContext result) {
+		System.out.println("On test finish.....");
+	}
+
+}

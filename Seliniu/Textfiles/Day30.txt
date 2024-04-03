@@ -1,0 +1,10 @@
+Day-30
+---------
+Keyboard actions..
+
+JavaScriptExecutor  --- Interface
+
+executeScript() -->  
+we can execute java script statemetns in selenium using this method...
+
+

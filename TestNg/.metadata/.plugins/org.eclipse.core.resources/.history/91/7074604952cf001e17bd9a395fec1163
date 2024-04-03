@@ -1,0 +1,39 @@
+package HackerRank;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Hack {
+	
+
+	public WebDriver driver;
+	Hack(WebDriver driver){
+		this.driver=driver;
+		PageFactory.initElements(driver,this);
+	}
+	
+//	@FindBy(id="input-1")WebElement us;
+//	@FindBy(id="input-2")WebElement pas;
+//	@FindBy(xpath="//span[normalize-space()='Log In']") WebElement lo;
+	
+	By us=By.id("input-1");
+	By pas=By.id("input-2");
+	
+	public void setUser(String usname)
+	{
+		driver.findElement(us).sendKeys(usname);
+	}
+
+	public void setPass(String pass)
+	{
+		driver.findElement(pas).sendKeys(pass);
+	}
+	
+	public void click() {
+		lo.click();
+	}
+
+}

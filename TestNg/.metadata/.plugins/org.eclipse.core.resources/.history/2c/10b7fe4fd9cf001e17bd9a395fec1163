@@ -1,0 +1,45 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+import pageObject.AccountRegistrationPage;
+import pageObject.HomePage;
+import testBase.BaseClass;
+ 
+public class TC_001_AccountRegistrationTest extends BaseClass{
+	@Test
+	public void verify_acc_registration() throws InterruptedException {
+		logger.debug("application logs........");
+		logger.info("*******Starting TC_001_AccountRegistrationTest********");
+		HomePage hp=new HomePage(driver);
+		logger.info("*******Clicked on Account ********");
+		hp.createAccount();
+		logger.info("*******Clicked on Registration page********");
+		hp.clickRegister();
+		AccountRegistrationPage regPage=new AccountRegistrationPage(driver);
+		logger.info("*******Entering customer details********");
+//		logger.error("tett failed");
+		//boolean s=Assert.assertEquals(driver.getTitle(),"Register Account");
+		if(driver.getTitle().equals("Registe Account"))
+		{
+			logger.info("Test pass");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("test Fail");
+			Assert.fail();
+		}
+		regPage.setFirstName(randomString().toUpperCase());
+		regPage.setLastName(randomString().toUpperCase());
+		regPage.setEmail(randomString()+"@gmail.com");
+		String pass=randomAphaNumeric();
+		regPage.setPassword(pass);
+		Thread.sleep(5000);
+		regPage.clickCheckbox();
+		regPage.clickSubmit();
+		Thread.sleep(8000);
+	}
+
+}

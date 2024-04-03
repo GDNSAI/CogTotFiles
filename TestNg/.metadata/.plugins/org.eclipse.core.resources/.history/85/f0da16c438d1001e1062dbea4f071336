@@ -1,0 +1,36 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import pageObject.AccountReg1;
+import pageObject.HomePage1;
+import testBase.BaseClass;
+
+public class TC_001_AccountRegistrat1 extends BaseClass{
+	
+	@Test(groups= {"sanity","regeression"})
+	public void reg()
+	{
+		
+		logger.info("****Start of Account Registration***");
+		logger.debug("Debugging the processes");
+		HomePage1 hp=new HomePage1(driver);
+		logger.info("Click on Registration Page");
+		hp.ClickRegis();
+		AccountReg1 ar=new AccountReg1(driver);
+		logger.info("Account registration Processes");
+		ar.setMale();
+		ar.setFirstName(randomString());
+		ar.setLastName(randomString());
+		ar.setEmail(randomAphaNumeric()+"@gamil.com");
+		String pass=randomAphaNumeric();
+		ar.setPassword(pass);
+		ar.setConfirmPassword(pass);
+		ar.setRegister();
+		System.out.println("Succefully Registered");
+		
+		
+		
+	}
+
+}

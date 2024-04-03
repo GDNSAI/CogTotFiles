@@ -1,0 +1,19 @@
+package HackerRank;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Hack {
+	
+	public WebDriver driver;
+	Hack(WebDriver driver){
+		this.driver=driver;
+		PageFactory.initElements(driver,this);
+	}
+	
+	@FindBy(xpath="//input[@id='input-1']")WebElement us;
+	@FindBY(xpath="//input[@id='input-1']")WebElement pas;
+
+}

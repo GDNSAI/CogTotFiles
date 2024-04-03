@@ -1,0 +1,27 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Afterlogin extends BasePage{
+
+	public Afterlogin(WebDriver driver) {
+		super(driver);
+			}
+	
+
+@FindBy(xpath="//h2[normalize-space()='My Account']") private WebElement myAccount;
+@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']") private WebElement logout;
+public boolean isMyaccountDis()
+{
+	try
+	{
+		return(myAccount.isDisplayed());
+	}
+	catch{
+		return (false);
+	}
+}
+
+}

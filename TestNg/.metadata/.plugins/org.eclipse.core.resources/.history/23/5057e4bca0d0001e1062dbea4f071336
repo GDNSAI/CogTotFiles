@@ -1,0 +1,11 @@
+package testCases;
+
+public class Tc_002_LoginTest1 {
+	
+	@Test
+	void Logi()
+	{
+		
+	}
+
+}

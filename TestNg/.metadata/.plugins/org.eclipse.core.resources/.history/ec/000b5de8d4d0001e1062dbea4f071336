@@ -1,0 +1,30 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import pageObject.HomePage1;
+import pageObject.Login1;
+import testBase.BaseClass;
+
+public class TC_003_LogiDataDriven extends BaseClass {
+	
+	@Test
+	public void validLogin(String em,String pass,String exp)
+	{
+		logger.info("***Start of login verif****");
+		HomePage1 hp=new HomePage1(driver);
+		logger.info("Click in login");
+		hp.ClickLogin();
+		logger.info("Login process....");
+		Login1 l=new Login1(driver);
+		l.setEmail(em);
+		l.setPass(p.getProperty(pass));
+		l.clickLogin();
+		
+		if(exp.equalsIgnoreCase("Valid"))
+		{
+			
+		}
+	}
+
+}

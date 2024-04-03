@@ -1,0 +1,17 @@
+Day-27
+----------
+Web Table
+----------
+static table
+dynamic table
+pagination table
+
+https://demo.opencart.com/admin/
+
+Assignment
+---------
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Login
+Go to PIM
+Capture first name & last name from Employee table

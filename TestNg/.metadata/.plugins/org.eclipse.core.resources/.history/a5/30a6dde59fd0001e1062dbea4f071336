@@ -1,0 +1,11 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class AfterLogin1 extends BasePage{
+
+	public AfterLogin1(WebDriver driver) {
+		super(driver);
+	}
+
+}

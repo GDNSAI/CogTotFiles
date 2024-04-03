@@ -1,0 +1,10 @@
+Day-31
+------
+Broken links
+
+Capture screenshot
+
+Headless testing - without UI , we can execute test cases backend.
+	Advantage: faster execution/performance is good
+	Dis Advantage: we can't explore the functionality/ we can't see the actions/validations.
+

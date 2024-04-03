@@ -1,0 +1,57 @@
+package testCases;
+
+import java.time.Duration;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import pageObject.*;
+
+public class TC001_LoginValid {
+	
+	Basepage b;
+	HomePage hp;
+	AccountRegsetup arp;
+	String fn,ln,email,pass;
+	
+	@Test
+	void test()
+	{
+		hp=new HomePage(driver);
+		hp.clickLog();
+		hp.clicReg();
+		
+		
+		arp=new AccountRegsetup(driver);
+		arp.setfn(randomString().toUpperCase());
+		arp.setln(randomString().toUpperCase());
+		arp.setem(randomString()+"@gmail.com");
+		arp.setpass(randomNumeric());
+	}
+	
+	public String randomNumeric()
+	{
+		String genNum=RandomStringUtils.randomNumeric(10);
+		return genNum;
+		
+	}
+	public String randomString()
+	{
+		String genString=RandomStringUtils.randomAlphabetic(10);
+		return genString;
+		
+	}
+	public String randomNumericString()
+	{
+		String genString=RandomStringUtils.randomAlphabetic(10);
+		String genNum=RandomStringUtils.randomNumeric(10);
+		return (genString+"@"+genNum);
+		
+	}
+	
+
+}

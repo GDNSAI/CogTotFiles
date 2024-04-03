@@ -1,0 +1,10 @@
+package HackerRank;
+
+import org.openqa.selenium.WebDriver;
+
+public class LogHac {
+	WebDriver driver;Hack h;
+	@BeforeClass
+	
+
+}

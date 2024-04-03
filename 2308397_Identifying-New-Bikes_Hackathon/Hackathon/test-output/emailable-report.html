@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">41,527</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">64,259</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">105,786</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_001</td><td><a href="#m0">test1</a></td><td rowspan="1">1709364185230</td><td rowspan="1">17649</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC_002</td><td><a href="#m1">test2</a></td><td rowspan="1">1709364203039</td><td rowspan="1">7</td></tr><tr class="failedeven"><td rowspan="1">testCases.TC_003</td><td><a href="#m2">test3</a></td><td rowspan="1">1709364203069</td><td rowspan="1">9</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_001</td><td><a href="#m3">test1</a></td><td rowspan="1">1709364224531</td><td rowspan="1">39852</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC_002</td><td><a href="#m4">test2</a></td><td rowspan="1">1709364264389</td><td rowspan="1">5</td></tr><tr class="failedeven"><td rowspan="1">testCases.TC_003</td><td><a href="#m5">test3</a></td><td rowspan="1">1709364264400</td><td rowspan="1">4</td></tr></tbody>
+</table>
+<h2>Test1</h2><h3 id="m0">testCases.TC_001#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:149)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:144)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:176)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtils.createRow(ExcelUtils.java:26)
+	at pageObjects.UpcomingBikes.pushUpcomingBikes(UpcomingBikes.java:109)
+	at testCases.TC_001.test1(TC_001.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC_002#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:58)
+	at pageObjects.BasePage.&lt;init&gt;(BasePage.java:19)
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:11)
+	at testCases.TC_002.test2(TC_002.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC_003#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:58)
+	at pageObjects.BasePage.&lt;init&gt;(BasePage.java:19)
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:11)
+	at testCases.TC_003.test3(TC_003.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m3">testCases.TC_001#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:149)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:144)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:176)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtils.createRow(ExcelUtils.java:26)
+	at pageObjects.UpcomingBikes.pushUpcomingBikes(UpcomingBikes.java:109)
+	at testCases.TC_001.test1(TC_001.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC_002#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:58)
+	at pageObjects.BasePage.&lt;init&gt;(BasePage.java:19)
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:11)
+	at testCases.TC_002.test2(TC_002.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC_003#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:58)
+	at pageObjects.BasePage.&lt;init&gt;(BasePage.java:19)
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:11)
+	at testCases.TC_003.test3(TC_003.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\IDNB"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS-Project\seleniumcas"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\CAS TruTime"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\IdentifyNewBikes-main"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\IdentifyNewBikes-master"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\IdentifyNewBikes_Hackathon-main"/>
+			<item value="C:\Users\2308397\eclipse-workspace\Tru_Time_Project"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\Tru_Time_Project (1)"/>
+			<item value="C:\Users\2308397\Downloads\Tru_Time_Project (1)"/>
+			<item value="C:\Users\2308397\eclipse-workspace\CAS_Project\Tru_Time_Project"/>
+			<item value="C:\Users\2308397\Downloads\Tru_Time_Project"/>
+			<item value="C:\Users\2308397\Downloads\seleniumcas 1 (1)"/>
+			<item value="C:\Users\2308397\Downloads\Cognizant_TruTime_Automation-master\Cognizant_TruTime_Automation-master"/>
+			<item value="C:\Users\2308397\Downloads\TrueTime-CognizantInternship-MainProject-main 1"/>
+			<item value="C:\Projects\Hackathon"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.Hackathon.IDNB"/>
+			<item value="com.Hackathon.IdentifyNewBikes"/>
+			<item value="com.Hackathon.IentifyNewBikes"/>
+			<item value="seleniumCas.Tru_Time"/>
+		</list>
+		<list key="groupId">
+			<item value="com.Hackathon"/>
+			<item value="seleniumCas"/>
+		</list>
+		<list key="artifactId">
+			<item value="IDNB"/>
+			<item value="IdentifyNewBikes"/>
+			<item value="IentifyNewBikes"/>
+			<item value="Tru-Time"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

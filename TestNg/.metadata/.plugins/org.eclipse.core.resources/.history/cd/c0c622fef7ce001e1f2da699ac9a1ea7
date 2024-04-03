@@ -1,0 +1,11 @@
+package com.TestNG.POM;
+
+public class LoginMeth {
+	WebDriver driver;
+	@BeforeClass
+	void setup()
+	{
+		
+	}
+
+}

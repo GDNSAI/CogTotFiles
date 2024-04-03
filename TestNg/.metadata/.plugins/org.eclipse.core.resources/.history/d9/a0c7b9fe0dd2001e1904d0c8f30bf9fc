@@ -1,0 +1,41 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+import pageObject.BeCognizant;
+import testBase.BaseClass;
+
+public class BeCogVefEmp extends BaseClass {
+
+	@Test
+	void Emp_Verific() throws InterruptedException {
+		BeCognizant bc = new BeCognizant(driver);
+		
+		bc.clickAccDetails();
+		String EmpName = bc.getAccManagerName();
+		if (EmpName.equals("Devanagasai, Geepalem (Contractor)")) {
+			logger.info("Employee Name is Valid");
+			Assert.assertTrue(true);
+		} else {
+			logger.info("Employee Name is Invalid");
+			Assert.fail();
+		}
+
+		String EmpEmail = bc.getAccManagerEmail();
+		if(EmpEmail.equals("2308397@cognizant.com"))
+		{
+			logger.info("Employee Email is Valid");
+			Assert.assertTrue(true);
+		} else {
+			logger.info("Employee Email is Invalid");
+			Assert.fail();
+		}
+		
+		Assert.assertEquals(bc.verifyOneCogni(), "OneCognizant", "One Cognizant NOT found");
+		
+		bc.clickOnOneCogni();
+
+	}
+
+}

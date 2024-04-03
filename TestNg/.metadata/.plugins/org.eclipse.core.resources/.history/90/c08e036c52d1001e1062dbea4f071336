@@ -1,0 +1,28 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import pageObject.HomePage1;
+import pageObject.Login1;
+import testBase.BaseClass;
+
+public class Tc_002_LoginTest1 extends BaseClass{
+	
+	@Test(groups= {"sanity","master"})
+	void Logi()
+	{
+		logger.info("******Start of the Login Test******");
+		logger.debug("Capture the debug logs");
+		HomePage1 hp=new HomePage1(driver);
+		logger.info("Click in login");
+		hp.ClickLogin();
+		logger.info("Login process....");
+		Login1 l=new Login1(driver);
+		l.setEmail(p.getProperty("email")));
+		l.setPass(p.getProperty("password"));
+		l.clickLogin();
+		System.out.println("Succefully loginned");
+		
+	}
+
+}

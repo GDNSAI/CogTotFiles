@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Practice {
+	public static void main(String[] args)
+	{
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://testautomationpractice.blogspot.com/");
+		WebElement new1=driver.findElement(By.xpath("//*[@id=\"HTML4\"]/div[1]/button"));
+		Set<String> s=driver.getWindowHandles();
+		List<String> l=new ArrayList<String>(s);
+		for(String sd:l)
+		{
+			new1.click();
+			driver.switchTo().window(sd);
+			driver.close();
+			driver.navigate().back();
+		}
+		List<WebElement> l1=driver.findElement(By.xpath("//*[@id=\"HTML1\"]/div[1]/table/tbody/tr"));
+	}
+	}
+
+	

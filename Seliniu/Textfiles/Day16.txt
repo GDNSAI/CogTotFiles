@@ -1,0 +1,59 @@
+Day-16
+-----
+Selenium WebDriver
+---------------------
+What is selenium webdriver?
+
+1) WebDriver is one of the component in selenium
+
+2) WebDriver is an java interface.
+
+SearchContext (I)
+|
+|
+WebDriver(I)
+
+Firefoxbrowser-------FirefoxDriver
+Chrome browser------ChromeDriver
+Edge browser ----- EdgeDriver
+IE ------- InternetExplorerDriver  ( deprecated)
+
+3) WebDriver is an API.
+
+Setup Webdriver in Eclipse
+-------------------------
+1) Selenium client Library
+2) Browser Specific drivers
+3) Browsers (chrome, edge, firefox...)
+
+Steps
+-----
+1) Create Maven project in Eclipse
+	File--> Other--> Maven project 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+Day-23
+-------
+wait commands
+
+
+wait statements will be used to solve synchronization problem in automation.
+
+
+Thread.sleep(ms)
+
+implicit wait
+explicite wait/ fluent state
+
+sleep() : provided by java itself( not selenium command)
+------------
+Adv:
+1) easy to use
+
+DisAdvantage:
+
+1) if the time is not suffitient then you will get exception
+2) it will wait ofr maximum time out. this will reduce the perforemce script.
+3) multiple times 
+
+implicit wait
+----------
+Adv:
+1) single time/one statement
+2) it will not wait till maximum time if the element is availble
+3) Applicable for all the elements
+4) easy to use
+
+Disadvantge:
+1) if the time is not suffitient then you will get exception
+
+Explicit wait
+------------
+declartion
+usage
+
+1) Conditional based, it will work more effectively.
+2) finding element is inclusive
+3) it will wait for copndition to be true, the consider the time
+4) we need to write multiple statements for multiple elements 
+
+
+Fluent wait
+------
+ // Waiting 30 seconds for an element to be present on the page, checking
+   // for its presence once every 5 seconds.
+  
+ Wait<WebDriver> mywait = new FluentWait<WebDriver>(driver)
+       .withTimeout(Duration.ofSeconds(30L))
+       .pollingEvery(Duration.ofSeconds(5L))
+       .ignoring(NoSuchElementException.class);
+
+
+   WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
+     public WebElement apply(WebDriver driver) {
+       return driver.findElement(By.id("foo"));
+     }
+   });
+
+
+Navigational commands
+-----------------
+navigate().to(url)   same as driver.get(url)
+navigate().forward()
+navigate().back()
+navigate().refresh()
+
+driver.navigate().to(url);
+
+driver.manage().window().maximize();
+
+"https://www.google.com"   -----> string
+
+URL myurl=new URL("https://www.google.com")
+
+navigate().to(URL) 
+    accepts url is URL & Strign format
+
+driver.get()  
+	accepts only String format
+
+
+
+
+
+
+
+
+

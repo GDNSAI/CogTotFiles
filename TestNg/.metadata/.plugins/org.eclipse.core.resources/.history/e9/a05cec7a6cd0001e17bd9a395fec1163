@@ -1,0 +1,47 @@
+package testBase;
+
+import java.time.Duration;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+public class BaseClass1 {
+	protected WebDriver driver;
+
+	@BeforeClass
+	void setup() throws InterruptedException {
+		driver = new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.nopcommerce.com/en/demo");
+		Thread.sleep(5000);
+	}
+
+	@AfterClass
+	void close() {
+		driver.close();
+	}
+
+	public String isNumeric() {
+		String getnu = RandomStringUtils.randomNumeric(10);
+
+		return getnu;
+
+	}
+	public String isAlpha() {
+		String getnu = RandomStringUtils.randomAlphabetic(10);
+
+		return getnu;
+
+	}
+	public String isAlphaNumeric() {
+		String getnu = RandomStringUtils.randomNumeric(10);
+		String getnu1 = RandomStringUtils.randomAlphabetic(10);
+
+		return (getnu+"@"+getnu1);
+
+	}
+
+}

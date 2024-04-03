@@ -1,0 +1,12 @@
+package testCases;
+
+import testBase.BaseClass;
+
+public class TC_002_LoginTest extends BaseClass{
+	@Test
+	public void Ver_login()
+	{
+		
+	}
+
+}

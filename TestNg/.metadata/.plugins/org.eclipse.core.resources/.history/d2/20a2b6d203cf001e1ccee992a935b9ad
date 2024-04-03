@@ -1,0 +1,50 @@
+package com.TestNG.POM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+public class Login {
+	public WebDriver driver;
+	
+	Login(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver,this);
+		
+	}
+	@FindBy(how=How.XPATH, using="//img[@alt='company-branding']")
+	WebElement img_logo;
+	@FindBy(name="username")
+	WebElement us;
+	@FindBy(name="password")
+	WebElement pas;
+	@FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']")
+	WebElement log;
+	
+	public void setUserName(String usname)
+	{
+		us.sendKeys(usname);
+	}
+	
+	public void setUserPass(String pass)
+	{
+		pas.sendKeys(pass);
+	}
+	public void clickBtn()
+	{
+		log.click();
+	}
+	public boolean verLog()
+	{
+		boolean s=logo.isDisplayed();
+		return s;
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage extends Basepage {
+	WebDriver driver;
+	public HomePage(WebDriver driver){
+		super(driver);
+	}
+
+
+@FindBy(xpath="//li[@class='visible-xs']//a[normalize-space()='Login']")  WebElement login;
+@FindBy(xpath="//li[@class='visible-xs']//a[normalize-space()='Register']")  WebElement register;
+
+public void clickLog()
+{
+	login.click();
+}
+public void clicReg()
+{
+	register.click();
+}
+}

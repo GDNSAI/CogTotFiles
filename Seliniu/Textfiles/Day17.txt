@@ -1,0 +1,36 @@
+Day-17
+------
+Test case
+--------
+1) Launch browser
+2) open url
+	https://opensource-demo.orangehrmlive.com/
+3) Provide username  - Admin
+4) Provide password  - admin123
+5) Click on Login button 
+6) Verify the title of dashboard page   
+	Exp title : OrangeHRM
+7) close browser
+
+Assignement
+----------------
+1) Launch browser
+2) open url
+	URL: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+3) Provide username  - admin@yourstore.com
+4) Provide password  - admin
+5) Click on Login button 
+6) Verify the title of dashboard page   
+	Exp title : Dashboard / nopCommerce administration
+7) Verify Dasboad
+
+ref
+----
+WebElement  txtemailbox=driver.findElement(By.name("username"));
+txtemailbox.clear();
+txtemailbox.sendKeys("email..");
+
+driver.findElement(By.id("Email"));
+
+
+

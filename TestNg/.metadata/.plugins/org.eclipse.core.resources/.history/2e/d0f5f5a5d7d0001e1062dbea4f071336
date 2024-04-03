@@ -1,0 +1,60 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+import pageObject.AfterLogin1;
+import pageObject.HomePage1;
+import pageObject.Login1;
+import testBase.BaseClass;
+
+public class TC_003_LogiDataDriven extends BaseClass {
+	
+	@Test
+	public void validLogin(String em,String pass,String exp)
+	{try {
+		logger.info("***Start of login verif****");
+		HomePage1 hp=new HomePage1(driver);
+		logger.info("Click in login");
+		hp.ClickLogin();
+		logger.info("Login process....");
+		Login1 l=new Login1(driver);
+		l.setEmail(em);
+		l.setPass(p.getProperty(pass));
+		l.clickLogin();
+		AfterLogin1 afl=new AfterLogin1(driver);
+		boolean mac=afl.setWelcomeToOurStore();
+		
+		if(exp.equalsIgnoreCase("Valid"))
+		{
+			if(mac==true)
+			{
+				afl.ClicLog();
+				Assert.assertTrue(true);
+			}
+			else
+			{
+				Assert.fail();
+			}
+		}
+		if(exp.equalsIgnoreCase("invalid"))
+		{
+			if(mac==true)
+			{
+				afl.ClicLog();
+				Assert.fail();
+			}
+			else
+			{
+				Assert.assertTrue(true);
+			}
+		}
+		}
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
+	logger.info("***Finished datadriven test cases***");
+	}
+
+}

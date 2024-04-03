@@ -1,0 +1,30 @@
+Day-32
+--------
+Data Driven testing
+--------------
+Excel
+
+Apache poi - API used for automating ms documents- excel.
+
+reading data from excel
+writing data into excel
+
+
+https://mvnrepository.com/artifact/org.apache.poi/poi/5.2.3
+https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml/5.2.3
+
+
+Excel File-->Workbook-->Sheets---->Rows--->Cells
+
+FileInputStream
+FileOutputStream
+
+XSSFWorkbook
+XSSFSheet
+XSSFRow
+XSSFCell
+
+
+
+
+

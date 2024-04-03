@@ -1,0 +1,12 @@
+package testCases;
+
+import testBase.BaseClass1;
+
+public class TC_001_AccountRegistrat1 extends BaseClass1{
+	@Test
+	public void reg()
+	{
+		
+	}
+
+}

@@ -1,0 +1,57 @@
+package com.TestNG.Xml;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import junit.framework.Assert;
+
+public class XmlPar {
+	
+	WebDriver driver;
+	
+	@BeforeClass
+	@Parameters({"browser","url"})
+	void setup(String ba,String addurl) {
+		
+		if(ba.equalsIgnoreCase("Chrome"))
+			driver=new ChromeDriver();
+		else if(ba.equalsIgnoreCase("Edge"))
+			driver=new EdgeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		
+		driver.get(addurl);
+		
+	}
+	@Test(priority=1)
+	void verifyLogin()
+	{
+		try {
+			boolean st=driver.findElement(By.xpath("//img[@alt='orangehrm-logo']")).isDisplayed();
+			Assert.assertEquals(st, false);
+		}
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
+	}
+	
+	@Test(priority=2)
+	void text()
+	{
+		
+		Assert.assertEquals(driver.getTitle(),"OrangeHRM");
+	}
+	@AfterClass
+	void close()
+	{
+		driver.close();
+	}
+
+}

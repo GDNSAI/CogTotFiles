@@ -1,0 +1,14 @@
+package testBase;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
+
+public class BasePage {
+	WebDriver driver;
+	@BeforeClass
+	void setup()
+	{
+	  driver=new ChromeDriver();	
+	}
+
+}

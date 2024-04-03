@@ -1,0 +1,13 @@
+package testCases;
+
+import testBase.BaseClass;
+
+public class TC_003_LogiDataDriven extends BaseClass {
+	
+	@Test
+	void validLogin()
+	{
+		
+	}
+
+}

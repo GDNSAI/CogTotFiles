@@ -1,0 +1,8 @@
+package com.TestNG.POM;
+
+public class Login {
+	public WebDriver driver;
+	
+	Login(WebDriver driver)
+
+}

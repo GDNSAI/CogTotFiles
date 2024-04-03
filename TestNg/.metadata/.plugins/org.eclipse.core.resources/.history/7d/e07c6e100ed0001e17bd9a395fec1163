@@ -1,0 +1,10 @@
+package pageObject;
+
+public class HomePage1 {
+	WebDriver driver;
+	HomePage1(WebDriver driver)
+	{
+		super(driver);
+	}
+
+}
